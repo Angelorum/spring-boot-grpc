@@ -1,0 +1,6 @@
+spring.application.name: demo
+management.security.enabled: false
+management.port: 6565
+
+grpc:
+ enabled: true

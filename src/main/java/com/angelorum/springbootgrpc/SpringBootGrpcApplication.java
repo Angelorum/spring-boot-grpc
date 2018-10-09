@@ -1,12 +1,12 @@
-package rum.angelo.springbootgrpc;
+package com.angelorum.springbootgrpc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringBootGrpcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringBootGrpcApplication.class, args);
 	}
 }
